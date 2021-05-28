@@ -42,6 +42,8 @@
     "karma-jasmine-html-reporter": "^1.5.0",
     "prettier": "^2.3.0",
     "prettier-eslint": "^12.0.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^22.0.0",
     "typescript": "~4.2.3"
   }
 }
