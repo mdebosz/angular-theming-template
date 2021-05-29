@@ -1,0 +1,28 @@
+mat-sidenav-container {
+  height: 100%;
+  width: 100%;
+
+  .wrapper {
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    .content {
+      flex: 1 0 auto;
+      margin-top: 64px;
+      overflow: hidden;
+    }
+  }
+}
+
+mat-sidenav {
+  width: 250px;
+
+  .mat-nav-list {
+    padding-top: 0;
+  }
+}

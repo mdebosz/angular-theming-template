@@ -20,7 +20,24 @@
     },
     "editor.formatOnSave": true
   },
-  "editor.formatOnSave": true,
+  "[scss]": {
+    "editor.defaultFormatter": "stylelint.vscode-stylelint",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.stylelint": true
+    },
+    "editor.formatOnSave": true
+  },
   "prettier.useEditorConfig": false,
-  "stylelint.configFile": ".stylelintrc"
+  "prettier.configPath": "${workspaceFolder}/.prettierrc.json",
+  "stylelint.configFile": "${workspaceFolder}/.stylelintrc",
+  "eslint.format.enable": true,
+  "stylelint.validate": [
+    "css",
+    "postcss",
+    "scss",
+    "source.css.styled",
+    "source.markdown.math",
+    "styled-css",
+    "sugarss"
+  ],
 }

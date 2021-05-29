@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = `angular-theming-template`;
+
+  navigation = [
+    { link: 'buttons', label: 'Buttons' },
+    { link: 'card', label: 'Card' }
+  ];
+
+  navigationSideMenu = [
+    ...this.navigation,
+    { link: 'settings', label: 'Settings' }
+  ];
 }
